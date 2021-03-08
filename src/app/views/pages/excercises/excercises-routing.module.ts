@@ -7,13 +7,7 @@ import { ExcercisesComponent } from "./excercises.component";
 const routes: Routes = [
   {
     path: "",
-    component: ExcercisesComponent,
-    children: [
-      {
-        path: "",
-        component: ExcerciseComponent
-      }
-    ],
+    component: ExcerciseComponent,
   },
 ];
 

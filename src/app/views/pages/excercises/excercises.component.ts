@@ -9,10 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExcercisesComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute, private linkProvider: LinkProviderService) { }
+  constructor(private route: ActivatedRoute) { }
   excerciseLink: string = '';
   ngOnInit(): void {
-    this.excerciseLink = this.linkProvider.activeItem.excerciseLink;
     this.excerciseLink = this.route.snapshot.params['name'];
 
   }
