@@ -30,8 +30,8 @@
             <span class="link-arrow" data-feather="chevron-down" appFeatherIcon></span>
           </a>
     
-          <a class="nav-link nav-link-ref" [routerLink]="item.link" *ngIf="!hasItems(item)"
-            [attr.data-parent]="item.parentId" (click)="handleClick(item)">
+          <a class="nav-link nav-link-ref" [routerLink]="item.excerciseLink?('excercises/'+item.label):item.link" *ngIf="!hasItems(item)"
+            [attr.data-parent]="item.parentId" >
             <i class="link-icon" [attr.data-feather]="item.icon" appFeatherIcon *ngIf="item.icon"></i>
             <span class="link-title"> {{ item.label }}</span>
             <span class="badge badge-{{item.badge.variant}}" *ngIf="item.badge">{{item.badge.text}}</span>
@@ -46,7 +46,7 @@
                 <span class="link-arrow" data-feather="chevron-down" appFeatherIcon></span>
               </a>
     
-              <a class="nav-link nav-link-ref" [routerLink]="subitem.link" *ngIf="!hasItems(subitem)" (click)="handleClick(subitem)"
+              <a class="nav-link nav-link-ref" [routerLink]="subitem.excerciseLink?('excercises/'+subitem.label):subitem.link" *ngIf="!hasItems(subitem)"
                 [attr.data-parent]="subitem.parentId">
                 <i class="link-icon" [attr.data-feather]="subitem.icon" appFeatherIcon *ngIf="subitem.icon"></i>
                 {{ subitem.label }}
@@ -54,7 +54,7 @@
     
               <ul class="sidebar-nav sub-menu nav-third-level" *ngIf="hasItems(subitem)" aria-expanded="false">
                 <li class="nav-item" *ngFor="let subSubitem of subitem.subItems">
-                  <a class="nav-link nav-link-ref" [routerLink]="subSubitem.link" [routerLinkActive]="['active']" (click)="handleClick(subSubitem)"
+                  <a class="nav-link nav-link-ref" [routerLink]="subSubitem.excerciseLink?('excercises/'+subSubitem.label):subSubitem.link" [routerLinkActive]="['active']"
                     [attr.data-parent]="subSubitem.parentId">
                     <i class="link-icon" [attr.data-feather]="subitem.icon" appFeatherIcon *ngIf="subitem.icon"></i>
                     {{ subSubitem.label }}

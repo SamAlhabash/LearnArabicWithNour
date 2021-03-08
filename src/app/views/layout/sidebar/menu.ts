@@ -24,12 +24,15 @@ export const MENU: MenuItem[] = [
       },
       {
         label: "جُمل وتعابير شائعة",
+        excerciseLink: 'https://www.wordwall.net/embed/273cad984fd949d4b2a9bd62c03c1418?themeId=1&templateId=3'
       },
       {
         label: "متى أستخدم التّعابير الآتية؟",
+        excerciseLink: 'https://www.wordwall.net/embed/8143a9848b444c38ad6a4e0c9efecde1?themeId=1&templateId=46',
       },
       {
         label: "التّعابير المفتاحيّة- 1",
+        excerciseLink: 'https://www.wordwall.net/embed/e6d7469dc8fd40c393098ac06090898c?themeId=1&templateId=3',
       },
     ],
   },
@@ -39,28 +42,35 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: "الأرقام من1 إلى 10 (عجلة الأرقام)",
+        excerciseLink: 'https://www.wordwall.net/embed/b02391ef2b2a44e7a9eacf417a4b0f71?themeId=52&templateId=8',
       },
       {
         label: "الأرقام جمع وضرب",
+        excerciseLink: 'https://www.wordwall.net/embed/d0558f1f7f7b46659ea56e400cd9ef8e?themeId=1&templateId=46',
       },
       {
         label: "الأرقام في جُمل بسيطة",
+        excerciseLink: 'https://www.wordwall.net/embed/6dad8eb8ac9643169d020316e51bccf3?themeId=1&templateId=46',
       },
       {
         label: "أربط بين الأرقام وكتابتها",
+        excerciseLink: 'https://www.wordwall.net/embed/2efdfcb3ad4143ab8e7c0753ae7b202b?themeId=1&templateId=54',
       },
     ],
   },
   {
-    label: "وسائل الموصلات",
+    label: "وسائل المواصلات",
+    excerciseLink: '',
     icon: "",
   },
   {
     label: "الحيوانات",
+    excerciseLink: 'https://www.wordwall.net/embed/77b873abeac44001b19e3f1eedb80c12?themeId=41&templateId=5',
     icon: "",
   },
   {
     label: "المِهن",
+    excerciseLink: '',
     icon: "",
   },
   {
@@ -68,10 +78,12 @@ export const MENU: MenuItem[] = [
     icon: "",
     subItems :[
       {
-        label: "الأماكن - 1"
+        label: "الأماكن - 1",
+        excerciseLink: 'https://www.wordwall.net/embed/9f9832bd462f4b648180f6878c2b49ec?themeId=1&templateId=5',
       },
       {
-        label: "الأماكن - 2"
+        label: "الأماكن - 2",
+        excerciseLink: 'https://www.wordwall.net/embed/ba220eb58dad4383908b4e042a36b2b0?themeId=1&templateId=46',
       },
     ]
   },
