@@ -1,4 +1,3 @@
-import { LinkProviderService } from './../../pages/excercises/link-provider.service';
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, Renderer2, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
@@ -20,7 +19,7 @@ export class SidebarComponent implements OnInit, AfterViewInit {
   menuItems = [];
   @ViewChild('sidebarMenu') sidebarMenu: ElementRef;
 
-  constructor(@Inject(DOCUMENT) private document: Document, private renderer: Renderer2, private router: Router, private linkProvider : LinkProviderService) { 
+  constructor(@Inject(DOCUMENT) private document: Document, private renderer: Renderer2, private router: Router) { 
     router.events.forEach((event) => {
       if (event instanceof NavigationEnd) {
 
@@ -249,7 +248,6 @@ export class SidebarComponent implements OnInit, AfterViewInit {
   handleClick(item:MenuItem): void {
     if (item.excerciseLink)
     {
-      this.linkProvider.setActiveItem(item) 
       this.router.navigate([`excercises/${item.label}`]);
     }
   }
