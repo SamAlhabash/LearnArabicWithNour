@@ -3,7 +3,7 @@
 
     <!--- Logo -->
     <a routerLink="/" class="sidebar-brand">
-      Noble<span>UI</span>
+      <span>Learn</span> Arabic <span>With Nour</span>
     </a>
 
     <!--- Toggler -->
@@ -25,14 +25,14 @@
         <li class="nav-item" *ngIf="!item.isTitle" (click)="handleClick(item)">
     
           <a class="nav-link" *ngIf="hasItems(item)" href="javascript:void(0);">
-            <i class="link-icon" [attr.data-feather]="item.icon" appFeatherIcon *ngIf="item.icon"></i>
+            <i class="link-icon {{item.icon}}"></i>
             <span class="link-title"> {{ item.label }}</span>
             <span class="link-arrow" data-feather="chevron-down" appFeatherIcon></span>
           </a>
     
           <a class="nav-link nav-link-ref" [routerLink]="item.excerciseLink?('excercises/'+item.label):item.link" *ngIf="!hasItems(item)"
             [attr.data-parent]="item.parentId" >
-            <i class="link-icon" [attr.data-feather]="item.icon" appFeatherIcon *ngIf="item.icon"></i>
+            <i class="link-icon {{item.icon}}" *ngIf="item.icon"></i>
             <span class="link-title"> {{ item.label }}</span>
             <span class="badge badge-{{item.badge.variant}}" *ngIf="item.badge">{{item.badge.text}}</span>
           </a>
