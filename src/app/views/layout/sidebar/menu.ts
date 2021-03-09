@@ -12,7 +12,7 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "التّعابير الشّائعة",
-    icon: 'fas fa-list',
+    icon: "fas fa-list",
     subItems: [
       {
         label: "أرتّبُ المحادثة",
@@ -154,7 +154,8 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "المُذكّر والمؤنَّث",
-    excerciseLink: "https://wordwall.net/embed/8fdfa6b44f5e45c89e1818846667f97c?themeId=1&templateId=37",
+    excerciseLink:
+      "https://wordwall.net/embed/8fdfa6b44f5e45c89e1818846667f97c?themeId=1&templateId=37",
     icon: "fas fa-venus-mars",
   },
   {
@@ -163,19 +164,23 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: "أختارُ هذا- هذه",
-        excerciseLink: "",
+        excerciseLink:
+          "https://www.wordwall.net/embed/79304d2fd3ad48e196731b7a23b81826?themeId=1&templateId=5",
       },
       {
         label: "أقرأُ وأطابق",
-        excerciseLink: "",
+        excerciseLink:
+          "https://www.wordwall.net/embed/9aa503d3eca94a9eaca67453690760d1?themeId=45&templateId=3",
       },
       {
         label: "أختارُ (ما؟ أو من؟)",
-        excerciseLink: "",
+        excerciseLink:
+          "https://www.wordwall.net/embed/4394d3414dde427e9a8e800fd33d3474?themeId=41&templateId=5",
       },
       {
         label: "الضَّمائر وأسماء الإشارة",
-        excerciseLink: "",
+        excerciseLink:
+          "https://www.wordwall.net/embed/0153f9c8751d491d803e4f5f252b3519?themeId=46&templateId=36",
       },
     ],
   },
@@ -185,12 +190,17 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: "جمع التّكسير",
+        excerciseLink:
+          "https://www.wordwall.net/embed/8f0dbdfcdd08492a9d73c32936af88a6?themeId=52&templateId=8",
       },
       {
         label: "أصلُ بين المُفرد والجمع - 1",
+        excerciseLink:
+          "https://www.wordwall.net/embed/eaeccbdf2d894210bbda89ccbb7401f2?themeId=1&templateId=46",
       },
       {
         label: "أصلُ بين المُفرد والجمع - 2",
+        excerciseLink: "",
       },
     ],
   },
@@ -200,9 +210,12 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: "عجلةُ الضَّمائر المُفردة",
+        excerciseLink: "",
       },
       {
         label: "عجلةُ الضَّمائر",
+        excerciseLink:
+          "https://www.wordwall.net/embed/bd9f36731ebc4409bb57d39a9468b780?themeId=52&templateId=8",
       },
     ],
   },
@@ -212,42 +225,64 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: "عجلة أيقونات الفعل",
+        excerciseLink:
+          "https://www.wordwall.net/embed/b74098e540e84df2a510fb5f8763f26a?themeId=52&templateId=8",
       },
       {
         label: "أُحدّد الفعل",
+        excerciseLink:
+          "https://www.wordwall.net/embed/446eab782a77427da6078d44036de034?themeId=31&templateId=69",
       },
       {
         label: "أقرأُ الفعل وأختارُ الصُّورة",
+        excerciseLink:
+          "https://www.wordwall.net/embed/c74589169b0a43e88b32d6f1ab23bbff?themeId=1&templateId=5",
       },
       {
         label: "مطابقة صور الأفعال وتذكّرها",
+        excerciseLink:
+          "https://www.wordwall.net/embed/46094c51413149f9a9e74ead00ac2744?themeId=1&templateId=25",
       },
       {
         label: "أحدّد الفعل وأختارُ حروفه",
+        excerciseLink:
+          "https://www.wordwall.net/embed/1b11c22cf83541b0a7e85d855d3399a0?themeId=62&templateId=73",
       },
       {
         label: "مطابقة الجُملة والصُّورة",
+        excerciseLink:
+          "https://www.wordwall.net/embed/b95a68aa4c43436a865f799844804f16?themeId=1&templateId=46",
       },
       {
         label: "مضارع+ أنا+ حروف الجر",
+        excerciseLink:
+          "https://www.wordwall.net/embed/2515930ac36b4a78b2732075c4f7a6e6?themeId=31&templateId=69",
       },
       {
         label: "إسناد الفعل المُضارع",
+        excerciseLink:
+          "https://www.wordwall.net/embed/d9e6b139569a4b7bb6b049b4f3ebcb49?themeId=1&templateId=3",
       },
       {
         label: "أُعبّر ُ عن الصُّورة بجملة فعليَّة",
+        excerciseLink:
+          "https://www.wordwall.net/embed/cccb08ca71e54ca7a44c98553fbff510?themeId=41&templateId=30",
       },
       {
         label: "أسند الفعل إلى الضمير المكتوب",
+        excerciseLink:
+          "https://www.wordwall.net/embed/1762fc4704854a83aac01466e472b96c?themeId=52&templateId=8",
       },
     ],
   },
   {
     label: "أدواتُ الاستفهام",
-    icon:'fas fa-question-circle',
+    icon: "fas fa-question-circle",
     subItems: [
       {
         label: "أدوات الاستفهام - 1",
+        excerciseLink:
+          "https://www.wordwall.net/embed/ffaffc64367c475fb64beae4f81bd382?themeId=1&templateId=3",
       },
       {
         label: "أختارُ أداة الاستفهام",
@@ -259,20 +294,26 @@ export const MENU: MenuItem[] = [
     subItems: [
       {
         label: "أختارُ (ة) أو (ت)",
+        excerciseLink:
+          "https://www.wordwall.net/embed/cb8f32748b084af896e1bc1ed9c344b3?themeId=48&templateId=2",
       },
     ],
   },
   {
     label: "النّفي",
-    icon: 'far fa-times-circle',
+    icon: "far fa-times-circle",
     subItems: [
       {
         label: "أنفِ الجُمل",
+        excerciseLink:
+          "https://www.wordwall.net/embed/b33b4ab3620847039e3a0b9aaf47e67a?themeId=2&templateId=30",
       },
     ],
   },
   {
     label: "كلماتٌ وأوزانٌ",
+    excerciseLink:
+      "https://www.wordwall.net/embed/c5aef35a8ee04b17b83f3ec19cfd1af9?themeId=28&templateId=8",
   },
   // {
   //   label: "Web Apps",
