@@ -69,39 +69,45 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "في المدرسة",
-    icon: 'fas fa-school',
+    icon: "fas fa-school",
     subItems: [
       {
-        label:'أدوات المدرسة',
-        excerciseLink: 'https://www.wordwall.net/embed/bd49cc2f7fa44449a5b84a041fa2273e?themeId=1&templateId=46',
+        label: "أدوات المدرسة",
+        excerciseLink:
+          "https://www.wordwall.net/embed/bd49cc2f7fa44449a5b84a041fa2273e?themeId=1&templateId=46",
       },
       {
-        label:' المدرسة- أربط بين السؤال والجواب',
-        excerciseLink: 'https://www.wordwall.net/embed/8aa98834fed24963828a5655c1ad492a?themeId=1&templateId=3',
+        label: " المدرسة- أربط بين السؤال والجواب",
+        excerciseLink:
+          "https://www.wordwall.net/embed/8aa98834fed24963828a5655c1ad492a?themeId=1&templateId=3",
       },
       {
-        label:'المدرسة- المفرد والجمع',
-        excerciseLink: 'https://www.wordwall.net/embed/b6f52bcd727847b7adc1e317035b9d7d?themeId=1&templateId=3',
+        label: "المدرسة- المفرد والجمع",
+        excerciseLink:
+          "https://www.wordwall.net/embed/b6f52bcd727847b7adc1e317035b9d7d?themeId=1&templateId=3",
       },
-    ]
+    ],
   },
   {
     label: "أسرتي",
-    icon: 'fas fa-child"',
+    icon: 'fas fa-child',
     subItems: [
       {
-        label: 'أسرتي',
-        excerciseLink: 'https://www.wordwall.net/embed/56fd06c10264492798ab5e0a6cd34fd8?themeId=1&templateId=46',
+        label: "أسرتي- مطابقة",
+        excerciseLink:
+          "https://www.wordwall.net/embed/56fd06c10264492798ab5e0a6cd34fd8?themeId=1&templateId=46",
       },
       {
-        label:'أسرتي - هذا وهذه',
-        excerciseLink: 'https://www.wordwall.net/embed/e54f1864b5894919bc9e2e43b57cc970?themeId=1&templateId=2',
+        label: "أسرتي - هذا وهذه",
+        excerciseLink:
+          "https://www.wordwall.net/embed/e54f1864b5894919bc9e2e43b57cc970?themeId=1&templateId=2",
       },
       {
-        label:'أسرتي - من هذا/هذه؟',
-        excerciseLink: 'https://www.wordwall.net/embed/3865986992c64004ade0c781d8698fc6?themeId=29&templateId=30',
+        label: "أسرتي - من هذا/هذه؟",
+        excerciseLink:
+          "https://www.wordwall.net/embed/3865986992c64004ade0c781d8698fc6?themeId=29&templateId=30",
       },
-    ]
+    ],
   },
   {
     label: "وسائل المواصلات",
@@ -117,9 +123,19 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "المِهن",
-    excerciseLink:
-      "https://wordwall.net/embed/4dc11cdd4cf7411fb66588e97cc8bcc6?themeId=1&templateId=73",
     icon: "fas fa-user-md",
+    subItems: [
+      {
+        label: "مطابقة المهن",
+        excerciseLink:
+          "https://wordwall.net/embed/4dc11cdd4cf7411fb66588e97cc8bcc6?themeId=1&templateId=73",
+      },
+      {
+        label: "المهن، هذا وهذه",
+        excerciseLink: "https://wordwall.net/embed/ab8923d38cbd4554a6084f2dfee65145?themeId=1&templateId=3"
+      }
+
+    ],
   },
   {
     label: "الأماكن",
@@ -241,7 +257,8 @@ export const MENU: MenuItem[] = [
       },
       {
         label: "أصلُ بين المُفرد والجمع - 2",
-        excerciseLink: "",
+        excerciseLink:
+          "https://wordwall.net/embed/152148945c164b869c1a3d953981b4a6?themeId=1&templateId=46",
       },
     ],
   },
@@ -327,6 +344,13 @@ export const MENU: MenuItem[] = [
       },
       {
         label: "أختارُ أداة الاستفهام",
+        excerciseLink:
+          "https://wordwall.net/embed/f81bc0454e3342ea850d09b373364058?themeId=1&templateId=3",
+      },
+      {
+        label: "أربط بين السؤال والجواب المناسب",
+        excerciseLink:
+          "https://wordwall.net/embed/c4378117705c4c8a9ec986ca1cff0121?themeId=1&templateId=3",
       },
     ],
   },
