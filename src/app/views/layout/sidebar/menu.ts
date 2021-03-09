@@ -30,6 +30,11 @@ export const MENU: MenuItem[] = [
           "https://www.wordwall.net/embed/8143a9848b444c38ad6a4e0c9efecde1?themeId=1&templateId=46",
       },
       {
+        label: "تعابيرُ الصَّفِّ",
+        excerciseLink:
+          "https://www.wordwall.net/embed/79250a12917040d3a9391d3a6d3b50fe?themeId=1&templateId=46",
+      },
+      {
         label: "التّعابير المفتاحيّة- 1",
         excerciseLink:
           "https://www.wordwall.net/embed/e6d7469dc8fd40c393098ac06090898c?themeId=1&templateId=3",
@@ -61,6 +66,42 @@ export const MENU: MenuItem[] = [
           "https://www.wordwall.net/embed/2efdfcb3ad4143ab8e7c0753ae7b202b?themeId=1&templateId=54",
       },
     ],
+  },
+  {
+    label: "في المدرسة",
+    icon: 'fas fa-school',
+    subItems: [
+      {
+        label:'أدوات المدرسة',
+        excerciseLink: 'https://www.wordwall.net/embed/bd49cc2f7fa44449a5b84a041fa2273e?themeId=1&templateId=46',
+      },
+      {
+        label:' المدرسة- أربط بين السؤال والجواب',
+        excerciseLink: 'https://www.wordwall.net/embed/8aa98834fed24963828a5655c1ad492a?themeId=1&templateId=3',
+      },
+      {
+        label:'المدرسة- المفرد والجمع',
+        excerciseLink: 'https://www.wordwall.net/embed/b6f52bcd727847b7adc1e317035b9d7d?themeId=1&templateId=3',
+      },
+    ]
+  },
+  {
+    label: "أسرتي",
+    icon: 'fas fa-child"',
+    subItems: [
+      {
+        label: 'أسرتي',
+        excerciseLink: 'https://www.wordwall.net/embed/56fd06c10264492798ab5e0a6cd34fd8?themeId=1&templateId=46',
+      },
+      {
+        label:'أسرتي - هذا وهذه',
+        excerciseLink: 'https://www.wordwall.net/embed/e54f1864b5894919bc9e2e43b57cc970?themeId=1&templateId=2',
+      },
+      {
+        label:'أسرتي - من هذا/هذه؟',
+        excerciseLink: 'https://www.wordwall.net/embed/3865986992c64004ade0c781d8698fc6?themeId=29&templateId=30',
+      },
+    ]
   },
   {
     label: "وسائل المواصلات",
