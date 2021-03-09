@@ -1,3 +1,4 @@
+import { HomeComponent } from "./views/pages/home/home.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { BaseComponent } from "./views/layout/base/base.component";
@@ -13,7 +14,6 @@ const routes: Routes = [
   {
     path: "",
     component: BaseComponent,
-    canActivate: [AuthGuard],
     children: [
       {
         path: "dashboard",
@@ -88,8 +88,12 @@ const routes: Routes = [
             (m) => m.ExcercisesModule
           ),
       },
+      {
+        path: "home",
+        component: HomeComponent,
+      },
 
-      { path: "", redirectTo: "dashboard", pathMatch: "full" },
+      { path: "", redirectTo: "home", pathMatch: "full" },
       // { path: '**', redirectTo: 'dashboard', pathMatch: 'full' }
     ],
   },
