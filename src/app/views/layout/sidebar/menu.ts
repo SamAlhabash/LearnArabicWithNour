@@ -12,7 +12,7 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "التّعابير الشّائعة",
-    icon: "fas fa-list",
+    icon: "far fa-comment",
     subItems: [
       {
         label: "أرتّبُ المحادثة",
@@ -291,6 +291,7 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "التاء المربوطة والمبسوطة",
+    icon: "fas fa-scroll",
     subItems: [
       {
         label: "أختارُ (ة) أو (ت)",
@@ -312,6 +313,7 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "كلماتٌ وأوزانٌ",
+    icon: "fas fa-pencil-ruler",
     excerciseLink:
       "https://www.wordwall.net/embed/c5aef35a8ee04b17b83f3ec19cfd1af9?themeId=28&templateId=8",
   },
