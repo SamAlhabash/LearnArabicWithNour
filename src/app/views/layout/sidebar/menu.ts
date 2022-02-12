@@ -2,11 +2,6 @@ import { MenuItem } from "./menu.model";
 
 export const MENU: MenuItem[] = [
   {
-    label: "Home",
-    icon: "fas fa-home",
-    link: "/home",
-  },
-  {
     label: "General Excercises تدريبات عامّة",
     isTitle: true,
   },
@@ -90,7 +85,7 @@ export const MENU: MenuItem[] = [
   },
   {
     label: "أسرتي",
-    icon: 'fas fa-child',
+    icon: "fas fa-child",
     subItems: [
       {
         label: "أسرتي- مطابقة",
@@ -132,9 +127,9 @@ export const MENU: MenuItem[] = [
       },
       {
         label: "المهن، هذا وهذه",
-        excerciseLink: "https://wordwall.net/embed/ab8923d38cbd4554a6084f2dfee65145?themeId=1&templateId=3"
-      }
-
+        excerciseLink:
+          "https://wordwall.net/embed/ab8923d38cbd4554a6084f2dfee65145?themeId=1&templateId=3",
+      },
     ],
   },
   {

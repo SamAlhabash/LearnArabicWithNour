@@ -88,12 +88,8 @@ const routes: Routes = [
             (m) => m.ExcercisesModule
           ),
       },
-      {
-        path: "home",
-        component: HomeComponent,
-      },
 
-      { path: "", redirectTo: "home", pathMatch: "full" },
+      { path: "", redirectTo: "excercises", pathMatch: "full" },
       // { path: '**', redirectTo: 'dashboard', pathMatch: 'full' }
     ],
   },

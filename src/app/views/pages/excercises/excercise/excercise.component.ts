@@ -12,9 +12,7 @@ export class ExcerciseComponent implements OnInit, OnDestroy {
   data: any;
   paramSubscribtion: Subscription;
 
-  constructor(
-    private route: ActivatedRoute,
-    private dom: DomSanitizer  ) {}
+  constructor(private route: ActivatedRoute, private dom: DomSanitizer) {}
 
   ngOnInit(): void {
     this.paramSubscribtion = this.route.params.subscribe((params) => {
